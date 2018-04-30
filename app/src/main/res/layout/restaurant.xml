@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images2">
+
+    <SearchView
+        android:layout_width="299dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="31dp"
+        tools:background="@drawable/bgscrollbar">
+
+    </SearchView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="72dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/restaurant"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.DeviceDefault.Light.TextView.ListSeparator"
+        android:layout_width="209dp"
+        android:layout_height="68dp"
+        android:layout_weight="1"
+        android:text="Restaurant"
+        android:textColor="?attr/colorButtonNormal"
+        android:textColorLink="?attr/colorError"
+        android:textSize="30sp"
+        tools:background="@drawable/bgscrollbar"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="74dp"
+        tools:shadowColor="@android:color/background_dark"
+        tools:textColor="?attr/actionMenuTextColor" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="295dp"
+        android:layout_height="41dp"
+        android:text="IBG (Ikan Bakar Gembul)"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:background="@drawable/bgscrollbar"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="295dp"
+        android:layout_height="41dp"
+        android:text="Kampoeng Bambu"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:background="@drawable/bgscrollbar"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="295dp"
+        android:layout_height="41dp"
+        android:text="Bukit Randu"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:background="@drawable/bgscrollbar"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="295dp"
+        android:layout_height="41dp"
+        android:text="Pindang RIU"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:background="@drawable/bgscrollbar"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="295dp"
+        android:layout_height="41dp"
+        android:text="Bumbu Desa"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:background="@drawable/bgscrollbar"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="295dp"
+        android:layout_height="41dp"
+        android:text="Rumah Kayu"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:background="@drawable/bgscrollbar"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+</android.support.constraint.ConstraintLayout>

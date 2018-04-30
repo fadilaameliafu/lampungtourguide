@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images2">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.DeviceDefault.Light.TextView.ListSeparator"
+        android:layout_width="177dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Rumah Kayu"
+        android:textColor="?attr/colorButtonNormal"
+        android:textColorLink="?attr/colorError"
+        android:textSize="24sp"
+        tools:background="@drawable/bgscrollbar"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="47dp"
+        tools:shadowColor="@android:color/background_dark"
+        tools:textColor="?attr/actionMenuTextColor" />
+
+    <LinearLayout
+        android:layout_width="288dp"
+        android:layout_height="330dp"
+        android:background="@drawable/bgscrollbar"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="106dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            app:srcCompat="@drawable/rumahkayu" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rumah Kayu merupakan salah satu restoran yang ada di daerah bandar lampung....
+
+Menyediakan Berbagai Menu Masakan:
+1. Ayam Goreng Rp. 15.000
+2. Es Jeruk Rp. 5.000
+3. Nasi Goreng Rp. 20.000
+4. Tempe dan Tahu Goreng Rp. 5.000"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>

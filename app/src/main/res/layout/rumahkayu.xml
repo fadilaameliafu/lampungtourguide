@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/restaurant"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.DeviceDefault.Light.TextView.ListSeparator"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Rumah Kayu"
+        android:textColor="?attr/colorButtonNormal"
+        android:textColorLink="?attr/colorError"
+        android:textSize="30sp"
+        tools:background="@drawable/bgscrollbar"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="34dp"
+        tools:shadowColor="@android:color/background_dark"
+        tools:textColor="?attr/actionMenuTextColor" />
+
+    <LinearLayout
+        android:layout_width="288dp"
+        android:layout_height="330dp"
+        android:background="@drawable/bgscrollbar"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="106dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            app:srcCompat="@drawable/rumahkayu" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+Alamat   : Jagabaya III, Way Halim, Bandar Lampung
+
+Jam buka : Senin-Minggu 09.00-22.00
+
+Telepon : (0721) 700666"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="138dp"
+        android:layout_height="54dp"
+        android:text="Direction"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="151dp"
+        android:layout_height="53dp"
+        android:text="More"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+</android.support.constraint.ConstraintLayout>
